@@ -61,7 +61,6 @@ namespace WebApplication1.Controllers
                 par1.Value = indexNumber;
 
                 com.Parameters.Add(par1);
-                //com.Parameters.AddWithValue("index", indexNumber);
 
                 con.Open();
                 SqlDataReader dr = com.ExecuteReader();
@@ -111,7 +110,7 @@ namespace WebApplication1.Controllers
                 com.Parameters.AddWithValue("LastName", "Kowalski");
 
                 var dr = com.ExecuteReader();
-                //...
+               
             }
 
             return Ok();

@@ -10,8 +10,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="StudensController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="StudentsController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="Student.cs" t="Include" />
@@ -32,7 +31,6 @@
           <e p="SqlServerDb.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
         <e p="WebApplication1.csproj" t="IncludeRecursive" />
       </e>
       <e p="WebApplication1.sln" t="IncludeFlat" />
