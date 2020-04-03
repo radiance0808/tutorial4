@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using WebApplication1.DAL;
 using WebApplication1.Services;
 
 namespace WebApplication1
@@ -27,7 +28,7 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             //AddTransient, AddSingleton
-            services.AddScoped<IStudentsDb, SqlServerDb>();
+            services.AddScoped<IDbService, MockDbService>();
             services.AddControllers();
         }
 
