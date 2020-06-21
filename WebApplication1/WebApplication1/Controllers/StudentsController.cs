@@ -48,7 +48,7 @@ namespace WebApplication1.Controllers
             return Ok(students);
         }
         [HttpGet("{id}")]
-        public IActionResult GetStudent(string id)
+        public IActionResult GetStudentEnrollment(string id)
         {
             var enrollment = new Enrollment();
             using (var con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s19230;Integrated Security=True"))

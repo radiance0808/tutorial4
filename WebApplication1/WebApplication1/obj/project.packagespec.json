@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/radyslavburylko/RiderProjects/tutorial4/WebApplication1/WebApplication1/WebApplication1.csproj",
+    "projectUniqueName": "/Users/radyslavburylko/RiderProjects/tutorial5/Tutorial10/tutorial4/WebApplication1/WebApplication1/WebApplication1.csproj",
     "projectName": "WebApplication1",
-    "projectPath": "/Users/radyslavburylko/RiderProjects/tutorial4/WebApplication1/WebApplication1/WebApplication1.csproj",
-    "outputPath": "/Users/radyslavburylko/RiderProjects/tutorial4/WebApplication1/WebApplication1/obj/",
+    "projectPath": "/Users/radyslavburylko/RiderProjects/tutorial5/Tutorial10/tutorial4/WebApplication1/WebApplication1/WebApplication1.csproj",
+    "outputPath": "/Users/radyslavburylko/RiderProjects/tutorial5/Tutorial10/tutorial4/WebApplication1/WebApplication1/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -52,7 +52,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
     }
   }
 }
